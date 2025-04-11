@@ -108,7 +108,7 @@
           },
           "TargetEmpty":{
             "id": "idEmpty",
-          "name": "EmptyView",
+          "name": "Empty",
  "controlAggregation": "detailPages",
  "viewLevel":1
           }
