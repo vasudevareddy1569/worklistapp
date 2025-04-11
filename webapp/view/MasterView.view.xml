@@ -1,0 +1,53 @@
+<mvc:View controllerName="app.splitapp.controller.MasterView"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page title="List View">
+				<headerContent>
+					<Button icon="sap-icon://sort" press="onSort"/>
+					<Button icon="sap-icon://action" tooltip="Share" press="onDetailView"/>
+				</headerContent>
+				<subHeader>
+					<OverflowToolbar>
+						<SearchField search="onSearch" liveChange="onSearch"/>
+					</OverflowToolbar>
+				</subHeader>
+					<content>
+						<List items="{toolModel>/toolsListSet}" id="idListCtrl" mode="SingleSelectMaster" selectionChange="onItemSelect">
+							<items>
+								<ObjectListItem icon="{toolModel>image}"
+								intro="{toolModel>toolsName}" number="{toolModel>price}" numberState="Success" numberUnit=" {toolModel>unit}">
+								<attributes>
+									<ObjectAttribute text="{toolModel>weight}" title="weight"></ObjectAttribute>
+									<ObjectAttribute text="{toolModel>warranty}" title="warranty"></ObjectAttribute>
+								</attributes>
+								<firstStatus>
+									<ObjectStatus text="available" title="availability" state="Error"></ObjectStatus>
+								</firstStatus>
+								<ObjectAttribute></ObjectAttribute>
+								</ObjectListItem>
+							<!--	<StandardListItem info="for cutting walls" infostate="Success" title="Angle Grinder"></StandardListItem>-->
+							<!--<CustomListItem>-->
+							<!--	<content>-->
+							<!--		<Label text="SSMB"></Label>-->
+							<!--		<Input width="200px"></Input>-->
+							<!--	</content>-->
+							<!--</CustomListItem>-->
+							<!--<DisplayListItem label="SSMB" value="5000"></DisplayListItem>-->
+							<!--<FeedListItem icon="https://files.prokerala.com/news/photos/imgs/1024/ssmb-28-1403730.jpg" -->
+							<!--info="All the best" text="next update please"></FeedListItem>-->
+							</items>
+						</List>
+					</content>
+                    <footer>
+            <OverflowToolbar>
+                <ToolbarSpacer/>
+                <Button text="Accept" type="Accept"/>
+                <Button text="Reject" type="Reject"/>
+                <Button text="Edit"/>
+                <Button text="Delete"/>
+            </OverflowToolbar>
+        </footer>
+ 
+			</Page>
+    
+</mvc:View>

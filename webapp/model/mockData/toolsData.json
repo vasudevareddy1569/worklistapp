@@ -1,0 +1,206 @@
+{
+    "toolsListSet":[
+    
+        {
+    
+            "toolsName": "Mitre Saw",
+    
+            "uses": "Used for making precise crosscuts and miters in wood.",
+    
+            "availability": "In Stock",
+    
+            "price": 12500,
+    
+            "unit": "INR",
+    
+            "image": "https://media.prod.bunnings.com.au/api/public/content/08f3223bd993411d999e7fd8e38cb10c?v=ee91d0cf",
+    
+            "weight": 13.5,
+    
+            "warranty": 2
+    
+        }
+        ,
+    
+        {
+    
+            "toolsName": "Hand Saw",
+    
+            "uses": "Used for manual cutting of wood and other soft materials.",
+    
+            "availability": "In Stock",
+    
+            "price": 450,
+    
+            "unit": "INR",
+    
+            "image": "https://storables.com/wp-content/uploads/2023/09/14-amazing-hand-saws-woodworking-for-2023-1695002739.jpg",
+    
+            "weight": 0.7,
+    
+            "warranty": 1
+    
+        },
+    
+        {
+    
+            "toolsName": "Hammer",
+    
+            "uses": "Used for driving nails and breaking objects.",
+    
+            "availability": "Out of Stock",
+    
+            "price": 350,
+    
+            "unit": "INR",
+    
+            "image": "https://pluspng.com/img-png/thor-hammer-png-thor-hammer-wallpaper-high-quality-resolution-bvk-4008.jpg",
+    
+            "weight": 1.2,
+    
+            "warranty": 1
+    
+        },
+    
+        {
+    
+            "toolsName": "Angle Grinder",
+    
+            "uses": "Used for grinding, cutting, and polishing surfaces.",
+    
+            "availability": "In Stock",
+    
+            "price": 3200,
+    
+            "unit": "INR",
+    
+            "image": "https://th.bing.com/th/id/OIP.4OlT4nVdmpZ6EAe3hLqVOQHaHa?rs=1&pid=ImgDetMain",
+    
+            "weight": 2.5,
+    
+            "warranty": 2
+    
+        },
+    
+        {
+    
+            "toolsName": "Allen Key",
+    
+            "uses": "Used to drive bolts and screws with hexagonal sockets.",
+    
+            "availability": "In Stock",
+    
+            "price": 150,
+    
+            "unit": "INR",
+    
+            "image": "https://cdn.shopify.com/s/files/1/0704/7983/products/FT130-6650.jpg?v=1481953046",
+    
+            "weight": 0.1,
+    
+            "warranty": 0.5
+    
+        },
+    
+        {
+    
+            "toolsName": "Drill",
+    
+            "uses": "Used for making round holes or driving fasteners.",
+    
+            "availability": "In Stock",
+    
+            "price": 2200,
+    
+            "unit": "INR",
+    
+            "image": "",
+    
+            "weight": 1.8,
+    
+            "warranty": 1
+    
+        },
+    
+        {
+    
+            "toolsName": "Cordless Drill",
+    
+            "uses": "Used for drilling and screwing without a power cord.",
+    
+            "availability": "Out of Stock",
+    
+            "price": 4800,
+    
+            "unit": "INR",
+    
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71ifxUAlKoL._SL1500_.jpg",
+    
+            "weight": 1.6,
+    
+            "warranty": 2
+    
+        },
+    
+        {
+    
+            "toolsName": "Table Saw",
+    
+            "uses": "Used for ripping and crosscutting wood on a table.",
+    
+            "availability": "In Stock",
+    
+            "price": 18500,
+    
+            "unit": "INR",
+    
+            "image": "https://th.bing.com/th/id/OIP.8sAZU64BmXuzegfms_Bk3AHaHa?rs=1&pid=ImgDetMain",
+    
+            "weight": 28,
+    
+            "warranty": 3
+    
+        },
+    
+        {
+    
+            "toolsName": "File",
+    
+            "uses": "Used for smoothing or shaping a material surface.",
+    
+            "availability": "In Stock",
+    
+            "price": 120,
+    
+            "unit": "INR",
+    
+            "image": "https://m.media-amazon.com/images/I/71NL-q3puiL._AC_SL1200_.jpg",
+    
+            "weight": 0.3,
+    
+            "warranty": 0.5
+    
+        },
+    
+        {
+    
+            "toolsName": "Tile Cutter",
+    
+            "uses": "Used for cutting ceramic tiles with precision.",
+    
+            "availability": "In Stock",
+    
+            "price": 1450,
+    
+            "unit": "INR",
+    
+            "image": "https://www.plasplugs.co.uk/images/product/83/1/DWW200%20Fianl%20Sample.jpg",
+    
+            "weight": 4.5,
+    
+            "warranty": 1
+    
+        }
+    
+    ]
+    }
