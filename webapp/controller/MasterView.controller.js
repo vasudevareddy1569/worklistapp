@@ -77,6 +77,10 @@ sap.ui.define([
         //  oDetail.bindElement(completePath);
 		//           	 this.onDetailView();
 
+        },
+        onFormView:function(){
+            let oRouter = this.getOwnerComponent().getRouter();
+            oRouter.navTo("RouteFormView");
         }
     });
 });

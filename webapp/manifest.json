@@ -91,6 +91,11 @@
           "target": [
             "TargetDetail"
           ]
+        },
+        {
+          "name": "RouteFormView",
+          "pattern": "RouteFormView",
+          "target":["TargetForm"]
         }
       ],
       "targets": {
@@ -111,8 +116,13 @@
           "name": "Empty",
  "controlAggregation": "detailPages",
  "viewLevel":1
-          }
-
+          },
+          "TargetForm":{
+          "id":"idForm",
+          "name":"FormView",
+          "controlAggregation": "detailPages",
+          "viewLevel":2
+        }
       }
     },
     "rootView": {

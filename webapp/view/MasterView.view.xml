@@ -41,10 +41,10 @@
                     <footer>
             <OverflowToolbar>
                 <ToolbarSpacer/>
-                <Button text="Accept" type="Accept"/>
+                <!-- <Button text="Accept" type="Accept"/>
                 <Button text="Reject" type="Reject"/>
-                <Button text="Edit"/>
-                <Button text="Delete"/>
+                <Button text="Edit"/> -->
+                <Button text="Create" press="onFormView"/>
             </OverflowToolbar>
         </footer>
  

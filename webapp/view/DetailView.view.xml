@@ -10,7 +10,81 @@
 							<Text text="{toolModel>weight}"></Text>
 								<Label text="warranty:"></Label>
 							<Text text="{toolModel>warranty}"></Text>
-						</f:SimpleForm>
+				</f:SimpleForm>
+       <IconTabBar >
+            <items>
+ 
+           
+            <IconTabFilter icon="sap-icon://information">
+ 
+            <VBox >
+            <HBox ><Label text="Tools Name "></Label>
+                <Input value="{toolModel>toolsName}"></Input></HBox>
+ 
+            <HBox ><Label text="Weight "></Label>
+                <Input value="{toolModel>weight}"></Input></HBox>
+ 
+            <HBox ><Label text="Warranty "></Label>
+                <Input value="{toolModel>warranty}"></Input></HBox>    
+            </VBox>
+ 
+            </IconTabFilter>
+ 
+ 
+            <IconTabFilter icon="sap-icon://supplier">
+
+            <Label text="Supplier"></Label>
+                    <Input id="idInputSupp" width="200px" liveChange="onFilter" editable="true"></Input>
+                    <Label text="City"></Label>
+                    <Input id="idInputCity" width="200px" liveChange="onFilter" editable="true"></Input>
+ 
+            <Table items="{toolModel>/supplierSet}" id="idMtable">
+ 
+            <columns>
+            <Column>
+           
+            <Text text="toolsName"></Text>
+           
+            </Column>
+            <Column>
+               
+                <Text text="supplierName"></Text>
+ 
+            </Column>
+            <Column>
+ 
+                <Text text="contact"></Text>
+ 
+            </Column>
+            <Column>
+ 
+                <Text text="location"></Text>
+ 
+            </Column>
+            </columns>
+           
+            <items>
+            <ColumnListItem >
+            <cells>
+            <!-- <Input value="{toolModel>/supplierName}" showValueHelp="true"
+            valueHelpRequest="onF4Help"></Input> -->
+            <Text text="{toolModel>toolsName}"></Text>
+            <Input value = "{toolModel>supplierName}" showValueHelp="true" valueHelpRequest="onF4Help"></Input>
+            <Text text="{toolModel>contact}"></Text>
+            <Text text="{toolModel>location}"></Text>
+            </cells>
+            </ColumnListItem>
+            </items>
+           
+ 
+           
+            </Table>
+            </IconTabFilter>
+ 
+ 
+            </items>
+            </IconTabBar>
+ 
  
 			</Page>
     
